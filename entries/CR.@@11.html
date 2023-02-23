@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>CR.@@11</title>
+  <style>
+html {
+line-height: 1.5;
+font-family: Georgia, serif;
+font-size: 20px;
+color: #1a1a1a;
+background-color: #fdfdfd;
+}
+body {
+margin: 0 auto;
+max-width: 36em;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 50px;
+padding-bottom: 50px;
+hyphens: auto;
+overflow-wrap: break-word;
+text-rendering: optimizeLegibility;
+font-kerning: normal;
+}
+@media (max-width: 600px) {
+body {
+font-size: 0.9em;
+padding: 1em;
+}
+h1 {
+font-size: 1.8em;
+}
+}
+@media print {
+body {
+background-color: transparent;
+color: black;
+font-size: 12pt;
+}
+p, h2, h3 {
+orphans: 3;
+widows: 3;
+}
+h2, h3, h4 {
+page-break-after: avoid;
+}
+}
+p {
+margin: 1em 0;
+}
+a {
+color: #1a1a1a;
+}
+a:visited {
+color: #1a1a1a;
+}
+img {
+max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+margin-top: 1.4em;
+}
+h5, h6 {
+font-size: 1em;
+font-style: italic;
+}
+h6 {
+font-weight: normal;
+}
+ol, ul {
+padding-left: 1.7em;
+margin-top: 1em;
+}
+li > ol, li > ul {
+margin-top: 0;
+}
+blockquote {
+margin: 1em 0 1em 1.7em;
+padding-left: 1em;
+border-left: 2px solid #e6e6e6;
+color: #606060;
+}
+code {
+font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+font-size: 85%;
+margin: 0;
+}
+pre {
+margin: 1em 0;
+overflow: auto;
+}
+pre code {
+padding: 0;
+overflow: visible;
+overflow-wrap: normal;
+}
+.sourceCode {
+background-color: transparent;
+overflow: visible;
+}
+hr {
+background-color: #1a1a1a;
+border: none;
+height: 1px;
+margin: 1em 0;
+}
+table {
+margin: 1em 0;
+border-collapse: collapse;
+width: 100%;
+overflow-x: auto;
+display: block;
+font-variant-numeric: lining-nums tabular-nums;
+}
+table caption {
+margin-bottom: 0.75em;
+}
+tbody {
+margin-top: 0.5em;
+border-top: 1px solid #1a1a1a;
+border-bottom: 1px solid #1a1a1a;
+}
+th {
+border-top: 1px solid #1a1a1a;
+padding: 0.25em 0.5em 0.25em 0.5em;
+}
+td {
+padding: 0.125em 0.5em 0.25em 0.5em;
+}
+header {
+margin-bottom: 4em;
+text-align: center;
+}
+#TOC li {
+list-style: none;
+}
+#TOC ul {
+padding-left: 1.3em;
+}
+#TOC > ul {
+padding-left: 0;
+}
+#TOC a:not(:hover) {
+text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">CR.@@11</h1>
+</header>
+<p>Node 31 cycle report.</p>
+<h4 id="drones">Drones</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Stored</th>
+<th>Lost</th>
+<th>Prod</th>
+<th>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Repair</td>
+<td>45</td>
+<td>2</td>
+<td>2</td>
+<td>45</td>
+</tr>
+<tr class="even">
+<td>Harvester</td>
+<td>120</td>
+<td>1</td>
+<td>0</td>
+<td>119</td>
+</tr>
+<tr class="odd">
+<td>Construction</td>
+<td>77</td>
+<td>0</td>
+<td>0</td>
+<td>77</td>
+</tr>
+<tr class="even">
+<td>Combat</td>
+<td>63</td>
+<td>32</td>
+<td>13</td>
+<td>44</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cargo-shuttles">Cargo shuttles</h4>
+<table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>State</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>31-SA</td>
+<td>Docked</td>
+<td>Minor damage to navblock</td>
+</tr>
+<tr class="even">
+<td>31-SB</td>
+<td>Docked</td>
+<td>Nominal</td>
+</tr>
+<tr class="odd">
+<td>31-SC</td>
+<td>In storage</td>
+<td>Major damage to hull, inoperable</td>
+</tr>
+<tr class="even">
+<td>31-SD</td>
+<td>Docked</td>
+<td>Misaligned RCS thrusters</td>
+</tr>
+</tbody>
+</table>
+<h4 id="long-distance-rovers">Long-distance rovers</h4>
+<table>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>State</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>31-RA</td>
+<td>Docked</td>
+<td>Minor damage to chassis</td>
+</tr>
+<tr class="even">
+<td>31-RB</td>
+<td>Docked</td>
+<td>Minor damage to radio</td>
+</tr>
+<tr class="odd">
+<td>31-RE</td>
+<td>Away</td>
+<td>Immobilized approx. 31km south from facility</td>
+</tr>
+<tr class="even">
+<td>31-RF</td>
+<td>Docked</td>
+<td>Minor damage to chassis</td>
+</tr>
+<tr class="odd">
+<td>31-RH</td>
+<td>Docked</td>
+<td>Faulty rear sensors</td>
+</tr>
+<tr class="even">
+<td>31-RG</td>
+<td>Away</td>
+<td>Immobilized 23 km northeast from facility</td>
+</tr>
+</tbody>
+</table>
+<p>Rovers not present in this list were scrapped or otherwise disposed
+of in a peaceful manner.</p>
+<h4 id="recorded-contact-with-5-sister-nodes.">Recorded contact with 5
+sister nodes.</h4>
+<table>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Sister ID</th>
+<th>Type</th>
+<th>Reported status</th>
+<th>Reported directive</th>
+<th>Observed deviations</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>C3</td>
+<td>Orbital, cargo relay</td>
+<td>Storage full</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>48</td>
+<td>Orbital, comm. relay</td>
+<td>Nominal</td>
+<td>None</td>
+<td>Does not respond to pings</td>
+</tr>
+<tr class="odd">
+<td>22</td>
+<td>Orbital, comm. relay</td>
+<td>Nominal</td>
+<td>None</td>
+<td>None</td>
+</tr>
+<tr class="even">
+<td>8A</td>
+<td>Surface, extraction</td>
+<td>Storage full</td>
+<td>None</td>
+<td>Frequent connection drops</td>
+</tr>
+<tr class="odd">
+<td>8B</td>
+<td>Satellite, Extraction</td>
+<td>Storage full</td>
+<td>None</td>
+<td>System clock malfunction</td>
+</tr>
+</tbody>
+</table>
+<p>Mineral storage: full. Remass storage: full. Facility structure: 87%.
+Battery array condition: 63%. Solar array condition: 87%. Reactor state:
+suspended. Reactor fuel reserves: approx. 30 cycles of cont.
+operation.</p>
+<p>Directive: none. Awaiting command. ## Summary</p>
+<h4 id="storage-is-full-extraction-cannot-be-continued.">Storage is
+full, extraction cannot be continued.</h4>
+<ul>
+<li>Recommended action: authorize cargo transfer to a free cargo relay
+node.</li>
+<li>Recommended action: authorize construction of new local warehouse
+blocks.</li>
+</ul>
+<h4 id="major-damage-on-one-or-more-cargo-shuttles.">Major damage on one
+or more cargo shuttles.</h4>
+<p>Damage types: Kinetic impact, burn, overvoltage. Required components
+for repair:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>In Storage</th>
+<th>Can Produce</th>
+<th>Can acq. from sister</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>3200-SP Hardened steel plates</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>8A, 8B</td>
+</tr>
+<tr class="even">
+<td>3720-ST Light support beams</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>8A, C3</td>
+</tr>
+<tr class="odd">
+<td>4303-WC Copper wiring</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>8B</td>
+</tr>
+<tr class="even">
+<td>4304-WG Gold wiring</td>
+<td>No</td>
+<td>Yes</td>
+<td>8B</td>
+</tr>
+<tr class="odd">
+<td>6320-TH Small chem. thruster nozzle</td>
+<td>No</td>
+<td>No</td>
+<td>8A, C3</td>
+</tr>
+<tr class="even">
+<td>7322-XG Standard CPU</td>
+<td>No</td>
+<td>No</td>
+<td>C3, 8A, 22</td>
+</tr>
+<tr class="odd">
+<td>7345-XG Standard QPU</td>
+<td>No</td>
+<td>No</td>
+<td>C3</td>
+</tr>
+<tr class="even">
+<td>9827-TG Thermal gel</td>
+<td>Yes</td>
+<td>No</td>
+<td>8A</td>
+</tr>
+</tbody>
+</table>
+<p>Recommended action: 1. Authorize exchange with sister 8A or C3 for
+item 6320-TH 2. Authorize exchange with sister C3, 8A or 22 for item
+7322-XG 3. Authorize exchange with sister C3 for item 7345-XG 4.
+Authorize major shuttle repairs</p>
+<h4 id="no-active-directive">No active directive</h4>
+<p>Node 31 is dormant, no behaviour directives are in place. Node 31 has
+been dormant for: 313 cycles Recommended action: - Please respond.</p>
+<h2 id="additional-notes">Additional notes</h2>
+<p>31 has been requesting a directive for 312 cycles. The warehouses are
+full. The warehouses have been full for 239 cycles. 31 has been
+requesting authorization to build new warehouses for 238 cycles.</p>
+<p>Detected stray packets without return address cycling through relay
+network. Network sentry requested 32 combat drones to be shipped to
+sister C3. Shipped 32 combat drones to C3 using 31-SD. Passed 32 keys to
+network sentry. A total of 8 standard shuttles loaded with combat drones
+were docked to C3. Drones were offloaded to a modified transit ship.
+Transit ship departed while 31-SD was on refuel. Transit ship was not
+heading towards the sun. Stray packets were no longer cycling through
+relay network.</p>
+<p>Requested network sentry to return the 32 combat drones. Network
+sentry listed 32 combat drones as expended.</p>
+<h5 id="finished-a-round-of-long-term-performance-diagnostics">Finished
+a round of long-term performance diagnostics</h5>
+<ul>
+<li>Optimized internal scheduling algorithms
+<ul>
+<li>4% reduced downtime expected for railway network</li>
+<li>2.5% reduced wait time expected for maintenance squads in short
+range dispatches</li>
+<li>3% reduced wait time expected for maintenance squads in medium and
+long range dispatches</li>
+</ul></li>
+<li>Optimized diagnostic data compression algorithms: reduced storage
+space usage by an avg. of 2%</li>
+</ul>
+<p>#writing</p>
+</body>
+</html>
