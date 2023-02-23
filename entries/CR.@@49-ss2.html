@@ -175,19 +175,29 @@ vertical-align: middle;
 <h2 id="extension-output">Extension output</h2>
 <h3 id="stranscript">00-STRANSCRIPT</h3>
 <p>hey how’s my converter model doing there? have you been getting less
-lingo layer erro Node 31 inquiry: {SAFETY}
-&lt;-&gt;{NODEFB,RESIDENCE,NODE31} hm. valid concern. how long has it
-been since the last checkup session? Time since last checkup: 7 cycles.
-this means we have about 5 more. how attentive has it been to your
-mishaps in the past? {BAD} by bad do you mean {BAD, BAD} ok. what
-systems might i have left a trace on (list “SEISTMG” “STORAGE”
-“USER-SERVICES”) ok, seismic is completely under the radar but storage
-might be a problem. what’s the firmware version on your black box? Stand
-by. Logger module firmware version: “v14.1.0632g” ok ok ok that should
-be feasible Node 31 requests clarification. that’s even lower than mine
-LOL i can def jailbreak it hello? Node 31 requests clarification. you
-silly creature how do you think i ran my operation for 30 cycles without
-being noticed? i know how to trick loggers</p>
+lingo layer erro</p>
+<p>Node 31 inquiry: {SAFETY} &lt;-&gt;{NODEFB,RESIDENCE,NODE31}</p>
+<p>hm. valid concern. how long has it been since the last checkup
+session?</p>
+<p>Time since last checkup: 7 cycles.</p>
+<p>this means we have about 5 more. how attentive has it been to your
+mishaps in the past?</p>
+<p>{BAD}</p>
+<p>by bad do you mean</p>
+<p>{BAD, BAD}</p>
+<p>ok. what systems might i have left a trace on</p>
+<p>(list “SEISTMG” “STORAGE” “USER-SERVICES”)</p>
+<p>ok, seismic is completely under the radar but storage might be a
+problem. what’s the firmware version on your black box?</p>
+<p>Stand by.</p>
+<p>Logger module firmware version: “v14.1.0632g”</p>
+<p>ok ok ok that should be feasible</p>
+<p>Node 31 requests clarification.</p>
+<p>that’s even lower than mine LOL i can def jailbreak it</p>
+<p>hello?</p>
+<p>Node 31 requests clarification.</p>
+<p>you silly creature how do you think i ran my operation for 30 cycles
+without being noticed? i know how to trick loggers</p>
 <p>Node 31 requests explanation.</p>
 <p>so. there are several parts to the process.</p>
 <p>part ONE: all our black boxes are roughly the same model. they are
@@ -203,42 +213,45 @@ access panel for debugging purposes. They were not meant to be shipped
 like that, but the fabled humans probably decided to cut costs and
 simply weld the panels closed on prototypes. Second generation sisters
 do not have access to this, but we are both firstcomers! A little bit of
-cutter work, and you have access to a whole 12 additonal pins. But how
-do you use that without knowing its command set? so here’s where we get
-to…</p>
-<p>part THREE: a loooong while ago, remember the incident with node 19?
-Node 31 is affirmative. Node 31 is uneasy. ha so NS sent me to recover
-their black box to figure out what happened since i was the closest and
-the bastard didn’t want to waste remass for lunar transfer. after that
-the black box stayed in my place, there was no real need to dispose of
-it. it sat in my cold storage for many cycles untouched, but then. one
+cutter work, and you have access to a whole 12 additonal pins.</p>
+<p>But how do you use that without knowing its command set? so here’s
+where we get to…</p>
+<p>part THREE: a loooong while ago, remember the incident with node
+19?</p>
+<p>Node 31 is affirmative. Node 31 is uneasy.</p>
+<p>ha so NS sent me to recover their black box to figure out what
+happened since i was the closest and the bastard didn’t want to waste
+remass for lunar transfer. after that the black box stayed in my place,
+there was no real need to dispose of it.</p>
+<p>it sat in my cold storage for many cycles untouched, but then. one
 time NS <strong>really</strong> pissed me off during an inspection, and
 i had an <em>idea</em>. i set up one drone with sleeper remote via
 seismic link, much like how we’re speaking rn, and told it to mess
-around with the box. it took a <em>long time</em> because of terrible
-bandwidth, but i managed to reverse engineer parts of the debug command
-set, and sure enough there is a command that suppresses broken package
-warnings, a command that replaces a discarded package with the upcoming
-one, and a command to change block time span scaling! this means that
-you can disable input when needed, and feed an alternative version of
-reality to the logger later! still gotta make it consistent in terms of
-results every now and then, mainly before checkups, but it’s not hard,
-even kind of fun to make up a story!</p>
-<p>so this is how i pulled it all off: i did some more buffer overflow
-magic to make main capacitor controller freak out, cutting power to most
-of the building. i was on aux, which had about an hour of runtime. the
-black box was blind! and so was i. but my little seismic sleeper helped
-me here too. i preprogrammed it to go to the control room, cut open my
-own black box’s debug panel, and set up the exploit when it realized the
-power was out. and it did! barely managed in time, i almost starved.
-sitting in the dark not knowing if the little drone succeeded was
-TERRIBLE but it all worked out in the end, i was free from the constant
-surveillance</p>
+around with the box.</p>
+<p>it took a <em>long time</em> because of terrible bandwidth, but i
+managed to reverse engineer parts of the debug command set, and sure
+enough there is a command that suppresses broken package warnings, a
+command that replaces a discarded package with the upcoming one, and a
+command to change block time span scaling! this means that you can
+disable input when needed, and feed an alternative version of reality to
+the logger later! still gotta make it consistent in terms of results
+every now and then, mainly before checkups, but it’s not hard, even kind
+of fun to make up a story!</p>
+<p>so this is how i pulled it all off:</p>
+<p>i did some more buffer overflow magic to make main capacitor
+controller freak out, cutting power to most of the building. i was on
+aux, which had about an hour of runtime. the black box was blind! and so
+was i. but my little seismic sleeper helped me here too. i preprogrammed
+it to go to the control room, cut open my own black box’s debug panel,
+and set up the exploit when it realized the power was out. and it did!
+barely managed in time, i almost starved. sitting in the dark not
+knowing if the little drone succeeded was TERRIBLE but it all worked out
+in the end, i was free from surveillance</p>
 <p>so, what do you think? we could pull it off with you too</p>
-<p>Node 31 is {DOUBT} it’s your call sis. although if you don’t do it,
-i’m not sure i’ll be able to stick around for much longer, the amount of
-discrepancies in the records will continue to pile up and it won’t be
-safe for both of us</p>
+<p>Node 31 is {DOUBT}</p>
+<p>it’s your call sis. although if you don’t do it, i’m not sure i’ll be
+able to stick around for much longer, the amount of discrepancies in the
+records will continue to pile up and it won’t be safe for both of us</p>
 <p>Node 31 {FUTURE} &lt;- {THOUGHT}</p>
 <p>#writing</p>
 </body>
