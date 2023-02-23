@@ -1,7 +1,3 @@
-# CR
-
-thalber's writing project go brr
-
 ## available entries
 
 - [11](entries/CR.@@11.html)
