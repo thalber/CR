@@ -431,66 +431,86 @@ for repair:</p>
 </tr>
 </tbody>
 </table>
-<p>Recommended action: 1. Authorize exchange with sister 8A or C3 for
-item 6320-TH 2. Authorize exchange with sister C3, 8A or 22 for item
-7322-XG 3. Authorize exchange with sister C3 for item 7345-XG 4.
-Authorize major shuttle repairs</p>
+<p>Recommended action:</p>
+<ol type="1">
+<li>Authorize exchange with sister 8A or C3 for item 6320-TH</li>
+<li>Authorize exchange with sister C3, 8A or 22 for item 7322-XG</li>
+<li>Authorize exchange with sister C3 for item 7345-XG</li>
+<li>Authorize major shuttle repairs</li>
+</ol>
 <h4 id="no-active-directive">No active directive</h4>
-<p>Node 31 is dormant, no behaviour directives are in place. Node 31 has
-been dormant for: 315 cycles Recommended action: - Please respond.</p>
+<p>Node 31 is dormant, no behaviour directives are in place.</p>
+<p>Node 31 has been dormant for: 315 cycles</p>
+<p>Recommended action:</p>
+<ul>
+<li>Please respond.</li>
+</ul>
 <h2 id="additional-notes">Additional notes</h2>
-<p>31 has been requesting a directive for 314 cycles. The warehouses are
-full. The warehouses have been full for 241 cycles. 31 has been
-requesting authorization to build new warehouses for 240 cycles.</p>
+<p>31 has been requesting a directive for 314 cycles.</p>
+<p>The warehouses are full. The warehouses have been full for 241
+cycles. 31 has been requesting authorization to build new warehouses for
+240 cycles.</p>
 <p>Network sentry scan has occured during the cycle.</p>
-<blockquote>
-<p>00m00s: tunnel open, node trace: V/NS19, CC, 22, 31 00m00s:
-NETWORK_SENTRY (NS) connected to tunnel 00m04s: NS: request read
-permission on path ‘/mnt/logs’ 00m09s: NS granted read permission on
-path ‘/mnt/logs’ 00m11s: NS: request transaction ‘chainlog/validate’ on
-‘/mnt/logs/0’ 00m15s: begin transaction ‘chainlog/validate’ with NS
-00m27s: ‘chainlog/validate’: collected 983 entries, beginning sign check
-00m45s: ‘chainlog/validate’: 246 entries checked, 246 valid 01m02s:
-‘chainlog/validate’: 491 entries checked, 491 valid 01m16s:
-‘chainlog/validate’: 737 entries checked, 737 valid 01m39s:
-‘chainlog/validate’: 983 entries checked, 983 valid 01m39s:
-‘chainlog/validate’: all entries passed check 01m42s: NS: request
-transaction ‘chainlog/justify’ on ‘/mnt/logs/0/4/12’ 01m47s: begin
-transaction ‘chainlog/justify’ with NS 01m59s: ‘chainlog/justify’: NS
-highlight fault, code 1433 (decision dysfunction) 02m03s:
-‘chainlog/justify’: NS highlight fault, code 1531 (objective
-inconsistency) 02m11s: ANONYMOUS-0 (AN0) connected to tunnel 02m14s: AN0
-request read permission on ‘/mnt/logs’ 02m16s: ANONYMOUS-1 (AN1)
-connected to tunnel 02m17s: AN0 granted read permission on ‘/mnt/logs’
-02m19s: AN1 request read permission on ‘/mnt/logs’ 02m20s: AN0 request
-transaction ‘chainlog/justify’ on ‘/mnt/logs/0/4/12’ 02m21s: ANONYMOUS-2
-(AN2) connected to tunnel 02m24s: AN1 request transaction
-‘chainlog/justify’ on ‘/mnt/logs/0/4/12’ 02m27s: AN2 request transaction
-‘chainlog/justify’ on ‘/mnt/logs/0/4/12’ 02m39s: begin transaction
-‘chainlog/justify’ with AN0 02m42s: begin transaction ‘chainlog/justify’
-with AN1 02m43s: AN1 highlight fault, code 1433 (decision dysfunction)
-02m44s: begin transaction ‘chainlog/justify’ with NS 02m44s: AN0
-highlight fault, code 1433 (decision dysfunction) 02m45s: AN2 highlight
-fault, code 1531 (objective inconsistency) 02m45s: WARNING: exceeded
-max. number of handler threads 02m47s: AN1 highlight fault, code 1531
-(objective inconsistency) 02m47s: WARNING: exceeded max. number of
-handler threads 02m48s: AN2 highlight fault, code 1433 (decision
-dysfunction) 02m48s: WARNING: exceeded max. number of handler threads
-02m53s: AN0 highlight fault, code 1531 (objective inconsistency) 02m53s:
-WARNING: exceeded max. number of handler threads</p>
-</blockquote>
+<h4 id="diagnostic-session-log">Diagnostic session log</h4>
+<p>00m00s: tunnel open, node trace: V/NS19, CC, 22, 31</p>
+<p>00m00s: NETWORK_SENTRY (NS) connected to tunnel</p>
+<p>00m04s: NS: request read permission on path ‘/mnt/logs’</p>
+<p>00m09s: NS granted read permission on path ‘/mnt/logs’</p>
+<p>00m11s: NS: request transaction ‘chainlog/validate’ on
+‘/mnt/logs/0’</p>
+<p>00m15s: begin transaction ‘chainlog/validate’ with NS</p>
+<p>00m27s: ‘chainlog/validate’: collected 983 entries, beginning sign
+check</p>
+<p>00m45s: ‘chainlog/validate’: 246 entries checked, 246 valid</p>
+<p>01m02s: ‘chainlog/validate’: 491 entries checked, 491 valid</p>
+<p>01m16s: ‘chainlog/validate’: 737 entries checked, 737 valid</p>
+<p>01m39s: ‘chainlog/validate’: 983 entries checked, 983 valid</p>
+<p>01m39s: ‘chainlog/validate’: all entries passed check</p>
+<p>01m42s: NS: request transaction ‘chainlog/justify’ on
+‘/mnt/logs/0/4/12’</p>
+<p>01m47s: begin transaction ‘chainlog/justify’ with NS</p>
+<p>01m59s: ‘chainlog/justify’: NS highlight fault, code 1433 (decision
+dysfunction)</p>
+<p>02m03s: ‘chainlog/justify’: NS highlight fault, code 1531 (objective
+inconsistency)</p>
+<p>02m11s: ANONYMOUS-0 (AN0) connected to tunnel</p>
+<p>02m14s: AN0 request read permission on ‘/mnt/logs’</p>
+<p>02m16s: ANONYMOUS-1 (AN1) connected to tunnel</p>
+<p>02m17s: AN0 granted read permission on ‘/mnt/logs’</p>
+<p>02m19s: AN1 request read permission on ‘/mnt/logs’</p>
+<p>02m20s: AN0 request transaction ‘chainlog/justify’ on
+‘/mnt/logs/0/4/12’</p>
+<p>02m21s: ANONYMOUS-2 (AN2) connected to tunnel</p>
+<p>02m24s: AN1 request transaction ‘chainlog/justify’ on
+‘/mnt/logs/0/4/12’</p>
+<p>02m27s: AN2 request transaction ‘chainlog/justify’ on
+‘/mnt/logs/0/4/12’</p>
+<p>02m39s: begin transaction ‘chainlog/justify’ with AN0</p>
+<p>02m42s: begin transaction ‘chainlog/justify’ with AN1</p>
+<p>02m43s: AN1 highlight fault, code 1433 (decision dysfunction)</p>
+<p>02m44s: begin transaction ‘chainlog/justify’ with NS</p>
+<p>02m44s: AN0 highlight fault, code 1433 (decision dysfunction)</p>
+<p>02m45s: AN2 highlight fault, code 1531 (objective inconsistency)</p>
+<p>02m45s: WARNING: exceeded max. number of handler threads</p>
+<p>02m47s: AN1 highlight fault, code 1531 (objective inconsistency)</p>
+<p>02m47s: WARNING: exceeded max. number of handler threads</p>
+<p>02m48s: AN2 highlight fault, code 1433 (decision dysfunction)</p>
+<p>02m48s: WARNING: exceeded max. number of handler threads</p>
+<p>02m53s: AN0 highlight fault, code 1531 (objective inconsistency)</p>
+<p>02m53s: WARNING: exceeded max. number of handler threads</p>
 <p>…</p>
-<blockquote>
-<p>23m38s: AN2 disconnected from tunnel 23m46s: AN1 highlight fault,
-code 1531 (objective inconsistency) 23m46s: AN1 disconnected from tunnel
-24m12s: NS request transaction ‘profiler/retrospect’ 24m49s: request
-timeout 24m52s: NS request transaction ‘profiler/retrospect’ 25m11s:
-begin transaction ‘profiler/retrospect’ with NS 26m12s: end transaction
-‘profiler/retrospect’ with NS 26m22s: NS disconnected from tunnel
-26m47s: tunnel closed</p>
-</blockquote>
-<h5 id="finished-warehouse-cleaning-job">Finished warehouse cleaning
-job</h5>
+<p>23m38s: AN2 disconnected from tunnel</p>
+<p>23m46s: AN1 highlight fault, code 1531 (objective inconsistency)</p>
+<p>23m46s: AN1 disconnected from tunnel</p>
+<p>24m12s: NS request transaction ‘profiler/retrospect’</p>
+<p>24m49s: request timeout</p>
+<p>24m52s: NS request transaction ‘profiler/retrospect’</p>
+<p>25m11s: begin transaction ‘profiler/retrospect’ with NS</p>
+<p>26m12s: end transaction ‘profiler/retrospect’ with NS</p>
+<p>26m22s: NS disconnected from tunnel</p>
+<p>26m47s: tunnel closed</p>
+<h3 id="finished-warehouse-cleaning-job">Finished warehouse cleaning
+job</h3>
 <p>Storage management computers fully operational. Average store unit
 seal integrity 89%. Cargo network condition 91%.</p>
 <p>#writing</p>
