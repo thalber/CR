@@ -15,3 +15,4 @@
 - [55-DIA](entries/CR.@@55-DIA.html)
 - [56-ss0](entries/CR.@@56-ss0.html)
 - [57-DIA](entries/CR.@@57-DIA.html)
+- [59-DIA](entries/CR.@@59-DIA.html)
