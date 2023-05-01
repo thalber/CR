@@ -1,6 +1,7 @@
 Node 31 cycle report.
 
 #### Drones
+
 Type | Stored | Lost | Prod | Total
 --- | --- | --- | --- | ---
 Repair | 45 | 2 | 2 | 45
@@ -9,6 +10,7 @@ Construction | 77 | 0 | 0 | 77
 Combat | 63 | 32 | 13 | 44
 
 #### Cargo shuttles
+
 ID | State | Status
 --- | --- | ---
 31-SA | Docked | Minor damage to navblock
@@ -17,6 +19,7 @@ ID | State | Status
 31-SD | Docked | Misaligned RCS thrusters
 
 #### Long-distance rovers
+
 ID | State | Status
 --- | --- | ---
 31-RA | Docked | Minor damage to chassis
@@ -29,6 +32,7 @@ ID | State | Status
 Rovers not present in this list were scrapped or otherwise disposed of in a peaceful manner.
 
 #### Recorded contact with 5 sister nodes.
+
 Sister ID | Type | Reported status | Reported directive | Observed deviations
 --- | --- | --- | --- | ---
 C3 | Orbital, cargo relay | Storage full | None | None

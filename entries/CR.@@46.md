@@ -1,6 +1,7 @@
 Node 31 cycle report.
 
 #### Drones
+
 Type | Stored | Lost | Prod | Total
 --- | --- | --- | --- | ---
 Repair | 39 | 0 | 0 | 39
@@ -9,6 +10,7 @@ Construction | 73 | 0 | 0 | 73
 Combat | 75 | 0 |0 | 75
 
 #### Cargo shuttles
+
 ID | State | Status
 --- | --- | ---
 31-SA | Docked | Minor damage to navblock
@@ -17,6 +19,7 @@ ID | State | Status
 31-SD | Docked | Misaligned RCS thrusters
 
 #### Long-distance rovers
+
 ID | State | Status
 --- | --- | ---
 31-RA | Docked | Minor damage to chassis and cameras
@@ -62,6 +65,7 @@ Directive: none. Awaiting command.
 - Recommended action: authorize construction of new local warehouse blocks.
 
 #### Major damage on one or more cargo shuttles. 
+
 Damage types: Kinetic impact, burn, overvoltage. Required components for repair:
 
 Item | In Storage | Can Produce | Can acq. from sister

@@ -32,6 +32,7 @@ ID | State | Status
 Rovers not present in this list were scrapped or otherwise disposed of in a peaceful manner.
 
 #### Recorded contact with 5 sister nodes.
+
 Sister ID | Type | Reported status | Reported directive | Observed deviations
 --- | --- | --- | --- | ---
 C3 | Orbital, cargo relay | Storage full | None | Packages postfixed with junk data

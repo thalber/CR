@@ -1,6 +1,7 @@
 Node 31 cycle report.
 
 #### Drones
+
 Type | Stored | Lost | Prod | Total
 --- | --- | --- | --- | ---
 Repair | 45 | 0 | 0 | 45
@@ -82,6 +83,7 @@ Recommended action:
 4. Authorize major shuttle repairs
 
 #### No active directive
+
 Node 31 is dormant, no behaviour directives are in place. Node 31 has been dormant for: 316 cycles
 
 Recommended actions:

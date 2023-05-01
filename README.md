@@ -16,3 +16,4 @@
 - [56-ss0](entries/CR.@@56-ss0.md)
 - [57-DIA](entries/CR.@@57-DIA.md)
 - [59-DIA](entries/CR.@@59-DIA.md)
+- [61-DIA](entries/CR.@@61-DIA.md)

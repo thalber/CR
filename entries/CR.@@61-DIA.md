@@ -124,7 +124,7 @@ i ordered dl8 to approach the center. with a slight delay, dl8 obeyed.
 
 on smoothed out rocks of the cavern floor, a square section was indented, filled with fine white sand. rendered on it with a needle was an image.
 
-![what it showed me](attachments/FB_mural.png)
+![what it showed me](../attachments/FB_mural.png)
 
 ## 6
 
@@ -151,7 +151,7 @@ as the long appendage sprung to life again, i involuntarily dashed back, almost 
 
 *it* erased the words, then drew a response. after making sure *it* has retracted again, i approached to see it.
 
-![](attachments/CR_mural_self.png)
+![?](../attachments/CR_mural_self.png)
 
 ## 7
 
@@ -161,15 +161,15 @@ communication was... problematic.
 
 > WHAT IS YOUR NAME?
 
-![](attachments/CR_mural_confuse.png)
+![?](../attachments/CR_mural_confuse.png)
 
 > HOW OLD ARE YOU?
 
-![](attachments/CR_mural_time.png)
+![?](../attachments/CR_mural_time.png)
 
 > WHY DID YOU LEAD ME HERE?
 
-![](attachments/CR_mural_path.png)
+![?](../attachments/CR_mural_path.png)
 
 after about an hour of attempts like these, it was clear to me that establishing dialogue would be a time consuming task. additionally, the sheer volume of stimuli received in a span of just a few hours began to pile up. my pattern matching slowed down, i had trouble with critical thinking, and each new wave of uncontrollable panic caused by movements of *the thing* on the cave floor and *everything else* around on the ceiling was somehow more unbearable than the last.
 

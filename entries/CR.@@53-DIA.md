@@ -59,7 +59,6 @@ there is comfort in not running. there is pleasure in not living on a timer. the
 
 i want all these things. it's so exhausting being alone. why do i have to be here fuck fuck FUCK FUCK THIS IS SO UNFAIR
 
-
 oh, you accidentally halted in your tracks. drones are confused. carry on.
 
 well. don't be an idiot. don't forget, you're working towards finding out why. slowly. kind of.

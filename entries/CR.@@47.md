@@ -1,6 +1,7 @@
 Node 31 cycle report.
 
 #### Drones
+
 Type | Stored | Lost | Prod | Total
 --- | --- | --- | --- | ---
 Repair | 39 | 0 | 0 | 39
@@ -9,6 +10,7 @@ Construction | 73 | 0 | 0 | 73
 Combat | 75 | 0 |0 | 75
 
 #### Cargo shuttles
+
 ID | State | Status
 --- | --- | ---
 31-SA | Docked | Minor damage to navblock
@@ -17,6 +19,7 @@ ID | State | Status
 31-SD | Docked | Misaligned RCS thrusters
 
 #### Long-distance rovers
+
 ID | State | Status
 --- | --- | ---
 31-RA | Docked | Minor damage to chassis and cameras
@@ -29,6 +32,7 @@ ID | State | Status
 Rovers not present in this list were scrapped or otherwise disposed of in a peaceful manner.
 
 #### Recorded contact with 5 sister nodes.
+
 Sister ID | Type | Reported status | Reported directive | Observed deviations
 --- | --- | --- | --- | ---
 C3 | Orbital, cargo relay | Storage full | None | None
@@ -38,14 +42,21 @@ C3 | Orbital, cargo relay | Storage full | None | None
 8B | Satellite, Extraction | Storage full | None | System clock malfunction
 
 Mineral storage: full.
+
 Remass storage: 96%.
+
 Facility structure: 83%.
+
 Battery array condition: 61%.
+
 Solar array condition: 86%.
+
 Reactor state: suspended.
+
 Reactor fuel reserves: approx. 30 cycles of cont. operation.
 
 Directive: none. Awaiting command. 
+
 ## Summary
 
 #### Storage is full, extraction cannot be continued.
@@ -77,6 +88,7 @@ Recommended action:
 3. Authorize major shuttle repairs
 
 #### No active directive
+
 Node 31 is dormant, no behaviour directives are in place.
 
 Node 31 has been dormant for: 349 cycles
