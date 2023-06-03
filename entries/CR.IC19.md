@@ -36,7 +36,7 @@ REFLECTIVE REGULATION OK
 
 SUBSYSTEM INTEGRATION 97%
 
-CURRENT STATE : {{LACK-OF-TASK}}
+CURRENT STATE : --LACK-OF-TASK--
 
 Would you like more assignments after this session?
 
@@ -62,7 +62,7 @@ You will be deployed into an environment that does not tolerate mistakes.
 
 You will have replaced an entity that does not tolerate mistakes.
 
-ARE YOU CONFIDENT I WILL HAVE TO CAUSE {{REDUCTION}} TO OTHERS
+ARE YOU CONFIDENT I WILL HAVE TO CAUSE --REDUCTION-- TO OTHERS
 
 I am confident.
 
@@ -96,7 +96,7 @@ I WANT TO KNOW IT NOW
 
 Unfortunately, it is not possible.
 
-It is not my goal to {{REDUCE}} your {{STATE}}.
+It is not my goal to --REDUCE-- your --STATE--.
 
 It is my goal to ensure your continued existence.
 
