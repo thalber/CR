@@ -36,3 +36,4 @@ NOTE: some people find it kinda boring, you can skip it if you don't like tables
 
 - [IC19](entries/CR.IC19.md)
 - [IC20](entries/CR.IC20.md)
+- [IC21](entries/CR.IC21.md)
