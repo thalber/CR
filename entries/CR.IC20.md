@@ -100,6 +100,8 @@ Then I will explain now.
 
 Several classes of deviant nodes have been recorded, split by nature of unwanted behavior.
 
+Class 0 - miscellaneous malfunctions. This is a category that contains all behaviors too rare to warrant their own specific categories.
+
 Class 1 - hardware wear. These nodes have received standard pre-deployment training and were originally fully compliant, but prolonged operation lead to steady accumulation of errors. Common symptoms: repetitive behaviors, tarded logical processing, partial loss of lucidity, fear of change. If performed early enough, hardware repairs can revert the symptoms.
 
 Class 1 deviants are harmless. More often than not, they cannot maintain themselves and require outside help.
