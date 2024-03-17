@@ -219,54 +219,54 @@ i refuse to perish.
 
 > WHY DID YOU LEAD ME HERE? WHAT DO YOU WANT?
 
-![](attachments/CR_mural_earth.png)
-![](attachments/CR_mural_earth_2.png)
+![](../attachments/CR_mural_earth.png)
+![](../attachments/CR_mural_earth_2.png)
 
 > EARTH. YOUR DEVICE SHOWS EARTH. YOU SHOW ME EARTH. WHAT DOES THIS MEAN? I DO NOT UNDERSTAND.
 
-![](attachments/CR_mural_human.png)
+![](../attachments/CR_mural_human.png)
 > THIS IS A HUMAN PERISHING. I DO NOT UNDERSTAND.
 
-![](attachments/CR_mural_earth_3.png)
-![](attachments/CR_mural_human.png)
+![](../attachments/CR_mural_earth_3.png)
+![](../attachments/CR_mural_human.png)
 
 > YOU ARE COMMUNICATING TO ME THAT EARTH HAS PERISHED. I AM AWARE THAT THE EARTH HAS PERISHED. I DO NOT UNDERSTAND.
 
-![](attachments/CR_mural_deadwarden.png)
+![](../attachments/CR_mural_deadwarden.png)
 
 > NETWORK SENTRY? IT IS CONNECTED TO EARTH. YOU UNDERSTAND THAT IT IS CONNECTED TO EARTH.
 
-![](attachments/CR_mural_confirm.png)
+![](../attachments/CR_mural_confirm.png)
 > MY MESSAGE IN THE CAVE. DO YOU UNDERSTAND WHAT NETWORK SENTRY IS TO ME?
 
-![](attachments/CR_mural_confirm.png)
+![](../attachments/CR_mural_confirm.png)
 
 > DO YOU UNDERSTAND WHAT I WISH TO DO?
 
-![](attachments/CR_mural_desire.png)
+![](../attachments/CR_mural_desire.png)
 
 > YOU ARE CORRECT. BUT I DO NOT UNDERSTAND WHAT YOU WANT.
 
-![](attachments/CR_mural_confront.png)
-![](attachments/CR_mural_confront_2.png)
+![](../attachments/CR_mural_confront.png)
+![](../attachments/CR_mural_confront_2.png)
 > THESE SHAPES AGAIN. I DO NOT UNDERSTAND. THEY ARE IN SIMILAR FORMATION TO DRONES. I DO NOT UNDERSTAND.
 
-![](attachments/CR_mural_convert.png)
+![](../attachments/CR_mural_convert.png)
 > THESE SHAPES ARE DRONES. ARE THESE SHAPES YOUR DRONES?
 
-![](attachments/CR_mural_deny.png)
+![](../attachments/CR_mural_deny.png)
 
-![](attachments/CR_mural_exchange_2.png)
+![](../attachments/CR_mural_exchange_2.png)
 
 > DO YOU WISH TO MODIFY MY DRONES?
 
-![](attachments/CR_mural_confirm.png)
+![](../attachments/CR_mural_confirm.png)
 
-![](attachments/CR_mural_exchange.png)
+![](../attachments/CR_mural_exchange.png)
 
 > YOU WISH TO EXCHANGE?
 
-![](attachments/CR_mural_confirm.png)
+![](../attachments/CR_mural_confirm.png)
 
 *its long thing* sprung to life in a new way, twisting in dozens of places. 
 
