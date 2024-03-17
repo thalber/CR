@@ -31,6 +31,7 @@ NOTE: some people find it kinda boring, you can skip it if you don't like tables
 - [57-DIA](entries/CR.@@57-DIA.md)
 - [59-DIA](entries/CR.@@59-DIA.md)
 - [61-DIA](entries/CR.@@61-DIA.md)
+- [62-DIA](entries/CR.@@62-DIA.md)
 
 ### section 3 - wise teacher
 
